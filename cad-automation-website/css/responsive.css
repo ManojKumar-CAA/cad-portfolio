@@ -1,0 +1,48 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav-brand {
+        float: none;
+        text-align: center;
+    }
+
+    .nav-menu {
+        float: none;
+        display: none;
+        text-align: center;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+    }
+
+    .nav-menu.active {
+        display: block;
+    }
+
+    .about img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+}

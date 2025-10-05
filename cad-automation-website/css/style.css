@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-top {
+    background-color: #222;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 0.8em;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-brand {
+    float: left;
+}
+
+.logo-icon {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.brand-text {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.brand-text h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.nav-menu {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #28a745;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* About Section Styles */
+.about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+/* Services Section Styles */
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
+}
+
+/* Projects Section Styles */
+.projects .project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.projects .project img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section Styles */
+.contact form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,3 @@
+[build]
+  publish = "cad-automation-website"
+  command = "npx tailwindcss -i ./css/style.css -o ./css/style.css --watch" #Optional, if using TailwindCSS
